@@ -36,7 +36,7 @@ BANNER = r"""
 """
 
 CYBER_LINES = [
-    "Booting NAI engine...",
+    "Booting BlackArmy engine...",
     "Spinning up threads...",
     "Priming HTTP sessions...",
     "Arming observability...",
@@ -188,7 +188,7 @@ def print_report(args, metrics: Metrics, start_ts, end_ts):
 
     print("\n")
     print(Fore.CYAN + Style.BRIGHT + "─" * 64)
-    print(Fore.CYAN + Style.BRIGHT + " NAI DDoS Report")
+    print(Fore.CYAN + Style.BRIGHT + " BLACK ARMY DDoS Report")
     print(Fore.CYAN + Style.BRIGHT + "─" * 64)
     print(f"{Fore.MAGENTA}Target    : {args.url}")
     print(f"{Fore.MAGENTA}Method    : {args.method} | Threads: {args.threads} | RPS/thread: {args.rps or 'unlimited'}")
