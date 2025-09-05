@@ -271,7 +271,7 @@ def main():
             sys.stdout.write(f"\r{Fore.YELLOW}{frame} Launch in {s}…")
             sys.stdout.flush()
             time.sleep(0.08)
-    print(f"\r{Fore.GREEN}🚀 Launch!{' ' * 20}")
+    print(("\033[32m[÷]\033[31m▒▒\033[92m▒▒MORZE\033[33m▒▒REQUEST\033[31m▒▒SENT\033[37m▒::.".format(len(socket_list))))   Launch!{' ' * 20}")
 
     # wait for completion
     while time.time() < end_ts and not shutdown_flag.is_set():
